@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    justify-content: center;
+
+}
+
+ul {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 50px;
+    padding: 1em 0 1em 0;
+    width: 450px;
+}
+
+li:not(:last-child) {
+    border-right: 1px solid rgb(70, 70, 70);
+    padding-right: 20px;
+}
+
+a {
+    color: black;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+a:active {
+    color: darkgrey;
+}
